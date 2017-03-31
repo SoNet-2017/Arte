@@ -1,0 +1,101 @@
+body {
+    font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+    background: #eae6d1;
+    width:100%;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #393939;
+}
+
+h3, h4, h5, h6 {
+    color: #666666;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+
+th {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #e5e5e5;
+    color: #444;
+}
+
+td {
+    text-align: left;
+    padding: 5px 10px;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #ffcc00;
+}
+
+section{
+    margin-left: 650px;
+}
+
+.wrapper{
+    width: 650px;
+    margin: 0 auto;
+    position: absolute;
+}
+nav {
+    width: 230px;
+    position: fixed;
+    top: 220px;
+    left: 50%;
+    margin-left: -580px;
+    text-align: right;
+}
+
+
+a{
+    color: #3399cc;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type:none;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+nav ul a:link{
+    color:#666666;
+}
+nav ul a:hover{
+    color:#999999;
+}
+img[alt=diagram1] {
+    width: 50%;
+}
+
+.subsection{
+    border: 0;
+    padding-bottom: 20px;
+    background: transparent url("../images/hr.gif") bottom center repeat-x;} /*background-image possiamo poi usarlo se vogliamo andare a modificare proprietà dell'image*/
+.subsection:last-child {
+    border: 0;
+    padding-bottom: 20px;
+    background: transparent;}
+#banner #logo/*select id in another id*/{
+    position: absolute;
+    display:block;
+    height: 36px;
+    width: 26px;
+    background: url("../images/octocat-logo.png"); }
+#banner .button{
+    border: 1px #dba500;
+    background: #ffe788;
+    background-color: #FFE788;
+    text-align: center;
+    height: 14px;
+
+}

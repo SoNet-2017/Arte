@@ -3,10 +3,16 @@ body {
     color: #666;
     background: #eae6d1;
     width:100%;
+    margin: 0%;
+    display: block;
+
 }
 
 h1 {
     font-size: 28px;
+    color: #666666;
+    position: static;
+    text-align: center;
 }
 
 h2 {
@@ -36,66 +42,50 @@ td {
     border-bottom: 1px solid #e5e5e5;
     border-right: 1px solid #ffcc00;
 }
+/* Modifiche
+ */
 
-section{
-    margin-left: 650px;
+header  {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    height: 76px;
+    background: #4276b6;
 }
 
-.wrapper{
-    width: 650px;
-    margin: 0 auto;
-    position: absolute;
+#banner {
+    background: #ffcc00;
+    float: none;
+    height: 40px;
+
+    border-radius: 2.5px ;
+
+    position: relative;
+    top: -22px;
+    z-index: 1;
+
+    margin-right: 176.5px;
+    margin-left: 80px;
+
 }
-nav {
-    width: 230px;
-    position: fixed;
-    top: 220px;
-    left: 50%;
-    margin-left: -580px;
+
+
+ul {
+    margin-right: 80px;
+    margin-left: 80px;
     text-align: right;
+    float: left;
+    width: 20%;
 }
-
-
-a{
-    color: #3399cc;
-    text-decoration: none;
-}
-
-nav ul{
-    list-style-type:none;
-    font-size: 14px;
-    line-height: 24px;
-}
-
-nav ul a:link{
-    color:#666666;
-}
-nav ul a:hover{
-    color:#999999;
-}
-img[alt=diagram1] {
+section {
     width: 50%;
-}
-
-.subsection{
-    border: 0;
-    padding-bottom: 20px;
-    background: transparent url("../images/hr.gif") bottom center repeat-x;} /*background-image possiamo poi usarlo se vogliamo andare a modificare proprietà dell'image*/
-.subsection:last-child {
-    border: 0;
-    padding-bottom: 20px;
-    background: transparent;}
-#banner #logo/*select id in another id*/{
-    position: absolute;
-    display:block;
-    height: 36px;
-    width: 26px;
-    background: url("../images/octocat-logo.png"); }
-#banner .button{
-    border: 1px #dba500;
-    background: #ffe788;
-    background-color: #FFE788;
-    text-align: center;
-    height: 14px;
+    margin-top: 14px;
+    float: left;
+    background: white;
+    padding: 1%;
+    clear: right;
 
 }

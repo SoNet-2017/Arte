@@ -87,6 +87,8 @@ section {
     background: white;
     padding: 1%;
     clear: right;
+    margin-left: 3%;
+    margin-right: 10%;
 
 }
 
@@ -127,7 +129,7 @@ nav ul a:hover{
     right: 0px;
     height: 36px;
     width: 26px;
-    background-image: url( "../images/octocat-logo.png");
+    background: url( "../images/octocat-logo.png") no-repeat;
     margin-top: 6.5px;
 
 
@@ -151,17 +153,20 @@ nav ul a:hover{
 @media screen and (max-width: 480px) {
 
     .nav {
-        position: fixed;
-        min-height: 40px;
+        position: relative;
+        margin-left: 12%;
+        min-height: 50px;
+
     }
-    .nav ul {
-        width: 180px;
+    .nav ul  {
+        width: 280px;
         padding: 5px 0;
         position: absolute;
         top: 0;
         left: 0;
+        margin-left: 5%;
         border: solid 1px #aaa;
-        background: #fff url("../images/icon_list.png") no-repeat 10px 11px;
+        background: #fff url("../images/icon-menu.png") no-repeat 5px 11px;
         border-radius: 5px;
         box-shadow: 0 1px 2px rgba(0,0,0,.3);
     }
@@ -204,4 +209,13 @@ nav ul a:hover{
     .nav.center ul {
         left: 50%;
         margin-left: -90px;
-    }    }
+    }
+    h1{
+        position: relative;
+        margin-left: -25%;
+    }
+    section{
+        margin-left: 12%;}
+
+
+    }

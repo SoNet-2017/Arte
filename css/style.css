@@ -52,11 +52,13 @@ header  {
     padding-bottom: 18px;
     height: 76px;
     background: #4276b6;
+    position: relative;
+    float: inherit;
 }
 
 #banner {
     background: #ffcc00;
-    float: none;
+    float: inherit;
     height: 50px;
 
     border-radius: 2.5px ;
@@ -71,7 +73,7 @@ header  {
 }
 
 
-ul {
+nav {
     margin-right: 80px;
     margin-left: 80px;
     text-align: right;
@@ -159,7 +161,7 @@ nav ul a:hover{
         top: 0;
         left: 0;
         border: solid 1px #aaa;
-        background: #fff url(images/icon_list.png) no-repeat 10px 11px;
+        background: #fff url("../images/icon_list.png") no-repeat 10px 11px;
         border-radius: 5px;
         box-shadow: 0 1px 2px rgba(0,0,0,.3);
     }
@@ -189,7 +191,7 @@ nav ul a:hover{
         margin: 0 0 5px;
     }
     .nav ul:hover .current {
-       background: url(images/icon-check.png) no-repeat 10px 7px;
+       background: url("../images/icon-check.png") no-repeat 10px 7px;
     }
 
     /* right nav */

@@ -151,7 +151,7 @@ nav ul a:hover{
 @media screen and (max-width: 480px) {
 
     .nav {
-        position: relative;
+        position: fixed;
         min-height: 40px;
     }
     .nav ul {

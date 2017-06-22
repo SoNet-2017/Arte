@@ -81,7 +81,7 @@ nav {
     width: 15%;
 }
 section {
-    width: 50%;
+    width: 800px;
     margin-top: 14px;
     float: left;
     background: white;
@@ -156,8 +156,8 @@ div.logoArté {
 
 
 #diagramma{
-    width: 675px;
-    height: 697px;
+    width: 790px;
+    height: 816px;
 }
 
 
@@ -229,7 +229,8 @@ div.logoArté {
         margin-left: -25%;
     }
     section{
-        margin-left: 12.5%;}
+        margin-left: 12.5%;
+   }
 
 
     }
